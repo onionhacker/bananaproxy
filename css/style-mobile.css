@@ -1,0 +1,198 @@
+/*
+	Miniport 2.5 by HTML5 UP
+	html5up.net | @n33co
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+*/
+
+/*********************************************************************************/
+/* Basic                                                                         */
+/*********************************************************************************/
+
+	body
+	{
+		line-height: 1.75em;
+		font-size: 10pt;
+		letter-spacing: 0;
+	}
+
+	h1, h2, h3, h4, h5, h6
+	{
+		font-size: 1.25em;
+		margin: 0 0 0.4em 0;
+	}
+
+	h1
+	{
+		font-size: 2.25em;
+		line-height: 1.25em;
+	}
+	
+	h2
+	{
+	}
+
+	header
+	{
+		margin: 0 0 2em 0;
+	}
+	
+		header > span
+		{
+			font-size: 1.25em;
+		}
+
+	footer
+	{
+		margin: 2.5em 0 0 0;
+	}
+	
+		footer > p
+		{
+			font-size: 1.25em;
+		}
+
+	hr
+	{
+		margin: 1.5em 0 2em 0;
+	}
+
+	form
+	{
+	}
+	
+		form input[type=text],
+		form input[type=password],
+		form select,
+		form textarea
+		{
+		}
+
+	section,
+	article
+	{
+		clear: both;
+	}
+
+	.button
+	{
+		text-align: center;
+		font-size: 1.2em;
+		width: 100%;
+		padding: 1em 0 1em 0;
+		margin: 0.25em 0 0.25em 0;
+	}
+
+	ul.social
+	{
+		padding: 1em 0.5em 0 0.5em;
+	}
+
+		ul.social li
+		{
+			top: 0 !important;
+			margin: 0.5em 0.5em 0.5em 0.5em;
+		}
+
+		ul.social li.twitter			{ background-color: #2DAAE4; }
+		ul.social li.facebook			{ background-color: #3C5A98; }
+		ul.social li.dribbble			{ background-color: #C4376B; }
+		ul.social li.linkedin			{ background-color: #006599; }
+		ul.social li.tumblr				{ background-color: #51718A; }
+		ul.social li.googleplus			{ background-color: #DA2713; }
+		ul.social li.github				{ background-color: #FAFAFA; }
+		ul.social li.rss				{ background-color: #F2600B; }
+		ul.social li.instagram			{ background-color: #E0D7C8; }
+		ul.social li.foursquare			{ background-color: #39A3D4; }
+		ul.social li.skype				{ background-color: #10BEF1; }
+		ul.social li.soundcloud			{ background-color: #FE5419; }
+		ul.social li.youtube			{ background-color: #BF2E25; }
+		ul.social li.blogger			{ background-color: #FF6501; }
+		ul.social li.flickr				{ background-color: #0062DB; }
+		ul.social li.vimeo				{ background-color: #4C8AB0; }
+
+	.box
+	{
+		padding: 30px 20px 30px 20px;
+		margin: 0 0 20px 0 !important;
+	}
+
+		.box h3
+		{
+			margin-bottom: 0.25em;
+		}
+
+		.box .image-centered
+		{
+			margin-bottom: 1em;
+		}
+
+		.box .image-full
+		{
+			position: relative;
+			left: 20px;
+			top: 20px;
+			margin: -50px 0 50px -40px;
+			width: auto;
+		}
+
+/*********************************************************************************/
+/* Wrappers                                                                      */
+/*********************************************************************************/
+
+	.wrapper
+	{
+		padding: 3em 15px 3em 15px;
+		text-align: center;
+	}
+
+		.wrapper-first
+		{
+			padding-top: 5em;
+		}
+	
+/*********************************************************************************/
+/* Nav                                                                           */
+/*********************************************************************************/
+
+	#nav
+	{
+	}
+	
+		#nav a
+		{
+			padding: 0.5em;
+		}
+		
+/*********************************************************************************/
+/* Articles                                                                      */
+/*********************************************************************************/
+
+	#top
+	{
+	}
+
+		#top .me
+		{
+			width: 70%;
+			height: auto;
+			margin: 0 auto 1.75em auto;
+		}
+	
+	#contact
+	{
+	}
+	
+		#contact footer
+		{
+			margin: 0;
+		}
+		
+/*********************************************************************************/
+/* Copyright                                                                     */
+/*********************************************************************************/
+
+	#copyright
+	{
+		font-size: 1em;
+		margin: 0;
+	}

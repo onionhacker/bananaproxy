@@ -1,0 +1,48 @@
+/*
+	Miniport 2.5 by HTML5 UP
+	html5up.net | @n33co
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+*/
+
+/*********************************************************************************/
+/* Basic                                                                         */
+/*********************************************************************************/
+
+	ul.social
+	{
+		overflow: hidden;
+	}
+	
+		ul.social li
+		{
+			display: inline;
+		}
+
+	.box
+	{
+	}
+
+		.box .image-full
+		{
+			left: 0;
+			top: 0;
+			margin: 0 0 2em 0;
+		}
+
+/*********************************************************************************/
+/* Nav                                                                           */
+/*********************************************************************************/
+
+	#nav
+	{
+	}
+
+		#nav ul
+		{
+			overflow: hidden;
+		}
+	
+		#nav li
+		{
+			display: inline;
+		}
