@@ -1,4 +1,4 @@
-@charset 'UTF-8';
+﻿@charset 'UTF-8';
 
 @font-face{font-family:'FontAwesome';src:url('font/fontawesome-webfont.eot?v=4.0.1');src:url('font/fontawesome-webfont.eot?#iefix&v=4.0.1') format('embedded-opentype'),url('font/fontawesome-webfont.woff?v=4.0.1') format('woff'),url('font/fontawesome-webfont.ttf?v=4.0.1') format('truetype'),url('font/fontawesome-webfont.svg?v=4.0.1#fontawesomeregular') format('svg');font-weight:normal;font-style:normal}
 
@@ -23,10 +23,10 @@
 
 	body, input, textarea
 	{
-		font-family: 'Open Sans', sans-serif;
+		font-family: "Segoe UI", "Microsoft YaHei", SimHei, "WenQuanYi Zen Hei";
 		line-height: 1.85em;
 		color: #888;
-		font-weight: 300;
+		font-weight: 200;
 	}
 
 	a
@@ -874,7 +874,6 @@
 	.wrapper-style1
 	{
 		background-image: none;
-		background-color: #fff;
 	}
 	
 	.wrapper-style2
@@ -920,6 +919,7 @@
 		width: 100%;
 		z-index: 10000;
 		cursor: default;
+        opacity: 0.7;
 	}
 	
 		#nav ul
@@ -939,6 +939,7 @@
 			color: #fff;
 			text-decoration: none;
 			outline: 0;
+            opacity: 1;
 		}
 		
 			#nav a:hover
@@ -1006,3 +1007,26 @@
 		{
 			color: #777;
 		}
+
+/*********************************************************************************/
+/* Background                                                                    */
+/*********************************************************************************/
+#background {
+    position: fixed;
+    z-index: -1;
+    align-self: center;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    transform-origin: top;
+    background-color: #1B75A6;
+    cursor: default;
+}
+
+.wrapper-first {
+    min-height: 1000px;
+}
