@@ -1024,6 +1024,8 @@
 body {
     background-color: #000000;
     cursor: default;
+    font-family: 'Segoe UI Light', 微软雅黑, 黑体;
+    font-weight: 100;
 }
 
 .wrapper-first {
