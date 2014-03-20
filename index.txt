@@ -57,8 +57,8 @@
 						        <a class="button button-big" href="http://goo.gl/6hHouJ">下载枫叶香蕉v3.2.0.7</a><br/>
 						       	<p>1 剔除 cnnic(中国互联网网络信息中心) 这个垃圾证书,防止中间人攻击</p>
 						       	<p>2 重新编写升级程序</BR>3 剔除了若干失效很久的appid,目前香蕉已经趋于稳定</p>
-						       	<p>4 加入若干优质的IP列表 </p>
-						       	<p>4test </p>
+						       	<p>3 加入若干优质的IP列表 </p>
+						       
 						</div>
 					</div>
 				</article>
