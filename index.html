@@ -25,13 +25,15 @@
     <!--[if lte IE 8]><script src="js/html5shiv.js"></script><link rel="stylesheet" href="css/ie8.css" /><![endif]-->
     <!--[if lte IE 7]><link rel="stylesheet" href="css/ie7.css" /><![endif]-->
 
-<link rel = "Shortcut Icon" href=/cat.ico>
+    <link rel="Shortcut Icon" href=/cat.ico>
 
 </head>
-<body style="transform: scale(5)" >
-
-<!-- background music -->
-<audio src="/music.mp3" autoplay loop preload></audio>
+<body>
+    <img src="./background.jpg" id="background" style="opacity: 0;" />
+    <!-- background music -->
+    <audio autoplay loop>
+        <source src="./music.mp3" />
+    </audio>
 
     <!-- Nav -->
     <nav id="nav">
@@ -43,7 +45,7 @@
         </ul>
     </nav>
     <!-- Home -->
-    <div class="wrapper wrapper-style1 wrapper-first">
+    <div class="wrapper wrapper-style1 wrapper-first" style="transform: scale(5); -webkit-transform: scale(5);" id="wrapper">
         <article class="container" id="top">
             <div class="row">
                 <div class="4u">
@@ -54,14 +56,13 @@
                         <h1><font color="#FFFFFF">枫叶香蕉一键翻墙</font></h1>&nbsp;<font size="3" color="#FFFFFF">(革命尚未成功,同志仍在努力)</font>
                     </header>
                     <p><font color="#FFFFFF">枫叶香蕉成立于2012年,专注于研究各类代理技术,其研究基于vpn,shadowsocks,Openvpn</font></p>
-                    <a class="button button-big" href="https://github.com/onionhacker/bananaproxy/releases/download/v4.1.0/setup.exe">下载枫叶香蕉v4.1.0<br/>&nbsp;&nbsp;</font><font size="2">(产品代号三角枫)<font/></a>
+                    <a class="button button-big" href="https://github.com/onionhacker/bananaproxy/releases/download/v4.1.0/setup.exe">下载枫叶香蕉v4.1.0<br />&nbsp;&nbsp;</font><font size="2">(产品代号三角枫)<font /></a>
                     <span>
                         <font color="#99CC33"> <br />1 支持广泛的浏览器<br />2 自动设置系统代理<br />3 高速的翻墙性能</font>
                     </span>
-                 
-                 </div>
+
+                </div>
             </div>
-            <img src="/background.jpg" id="background" style="opacity: 0.5" />
         </article>
     </div>
     <!-- Work -->
@@ -161,7 +162,7 @@
                                         <h3><a href="http://flypixel.com/n33">Sed amet ornare</a></h3>
                                         <p>Ornare nulla proin odio consequat.</p>
                                     </article>-->
-                            </article>
+                        </article>
                     </div>
                 </div>
             </div>
@@ -199,47 +200,54 @@
                     <hr />
                 </div>
             </div>
-            </article>
+        </article>
     </div>
     <footer>
         <center>
             <ul id="copyright">
                 <font color="#FFFFFF">
-                <li>&copy; 枫叶香蕉2014</li>
-                <li>Images: <a href="http://google.com">google</a></li>
-                <li>Design: <a href="http://twitter.com/onionhacker">ring_hacker</a>&nbsp;<a href="http://akumangel.com">AkumAngel</a></li>
+                    <li>&copy; 枫叶香蕉2014</li>
+                    <li>Images: <a href="http://google.com">google</a></li>
+                    <li>Design: <a href="http://twitter.com/onionhacker">ring_hacker</a>&nbsp;<a href="http://akumangel.com">AkumAngel</a></li>
                 </font>
             </ul>
-            </center>
+        </center>
     </footer>
     <script>
-        window.scrollTo(0, 50);
-        if (navigator.appName == "Microsoft Internet Explorer" || navigator.product == "Gecko") {
-            c = 5;
-            document.body.style.overflow = "hidden";
-            document.getElementById("background").style.position = "absolute";
-            document.getElementById("background").style.top = "50px";
-            setInterval(function () {
-                if (c > 1) {
-                    c -= 0.1;
-                    document.body.style.transform = "scale(" + c + ")";
-                }
-                else if (c == 1 || c == 0.9000000000000009) {
-                    setTimeout(function () {
-                        document.body.style.overflowY = "scroll";
-                        document.getElementById("background").style.opacity = 0.2;
-                        document.getElementById("background").style.position = "fixed";
-                        document.getElementById("background").style.top = "0";
-                        document.body.style.transform = "";
-                    }, 1000);
-                }
-            }, 30);
-        }
-        else {
-            document.body.style.transform = "";
-            document.body.style.overflowX = "hidden";
-            document.getElementById("background").style.opacity = 0.2;
-        }
+        c = 5;
+        o = -0.04;
+        wo = -0.3;
+        document.body.style.overflow = "hidden";
+        document.getElementById("background").style.position = "absolute";
+        document.getElementById("background").style.top = "50px";
+        setInterval(function () {
+            if (c > 1) {
+                window.scrollTo(0, 50);
+                c -= 0.12;
+                document.getElementById("wrapper").style.transform = "scale(" + c + ")";
+                document.getElementById("wrapper").style.webkitTransform = "scale(" + c + ")";
+                o += 0.022;
+                document.getElementById("background").style.opacity = o;
+            }
+            else if (c == 1 || c == 0.9000000000000009) {
+                setTimeout(function () {
+                    document.body.style.overflowY = "scroll";
+                    document.getElementById("background").style.position = "fixed";
+                    document.getElementById("background").style.top = "0";
+                    document.getElementById("wrapper").style.transform = "";
+                    document.getElementById("wrapper").style.webkitTransform = "";
+                }, 1000);
+            }
+            wo += 0.03;
+            document.getElementById("wrapper").style.opacity = wo;
+        }, 30);
+        setInterval(function () {
+            if (c < 1) {
+                c = 1;
+                document.getElementById("wrapper").style.transform = "";
+                document.getElementById("wrapper").style.webkitTransform = "";
+            }
+        }, 30);
     </script>
 
 </body>

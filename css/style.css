@@ -1022,11 +1022,16 @@
 }
 
 body {
-    transform-origin: top;
-    background-color: #1B75A6;
+    background-color: #000000;
     cursor: default;
 }
 
 .wrapper-first {
     min-height: 1000px;
+    overflow: hidden;
+}
+
+#wrapper {
+    opacity: 0;
+    transform-origin: center 30%;
 }
