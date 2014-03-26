@@ -780,6 +780,7 @@ var domains = {
   "sina.com": 1, 
   "orn.jp": 1,
   "gmail.com": 1, 
+  "passpack.com": 1,
   "raw.githubusercontent.com": 1,
   "dongtaiwang.com": 1, 
   "gartlive.com": 1, 
