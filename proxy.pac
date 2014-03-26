@@ -1251,7 +1251,7 @@ var domains = {
   "cz.cc": 1, 
   "xbookcn.com": 1, 
   "witopia.net": 1, 
-  "backtotiananmen": 1,
+  "backtotiananmen.com": 1,
   "wenyunchao.com": 1, 
   "travelinlocal.com": 1, 
   "thetibetpost.com": 1, 
