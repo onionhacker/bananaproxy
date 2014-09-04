@@ -1,4 +1,5 @@
-Maple Banana
+枫叶香蕉
 ===========
 
-maple-banana is free software and an open network that helps you defend against traffic analysis, a form of network surveillance that threatens personal freedom and privacy, confidential business activities and relationships, and state security.
+一个基于VPN、SS(Shadowsocks)、TOR、GAE互联网代理技术于一身的项目,项目成立于2012年,其宗旨在于帮助大陆的网民自由的获取自由信息,一直致力于推广对抗封锁的技术！
+
